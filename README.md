@@ -11,15 +11,15 @@ This project is about creating an Intersection Collision scenario and retreiving
 2. Retreiving the real time values
  The real time values of Location [latitude,longitude] & Speed are received in c++ program via TRACI Client.
 
-SUMO version utilised is 	1.0.1
-TRACI includes the Xerces version  
-Projectis build on windows MinGW 4.8.1
+SUMO version utilised is 1.0.1
+TRACI includes the Xerces version 3.2.0 specially built for SUMO, can be found @ https://sourceforge.net/projects/sumo/files/dependencies/   
+Project is build on windows MinGW 4.8.1
 
 Steps to run:
 1. Configure the SUMO on your system
 2. Navigate to ICW_SUMO directory & run simulation using command :
 	sumo-gui -c icw.sumo.cfg --remote-port 8000
 3. Navigate to ICW_TraciClient directort & run Traci_Client.exe.
-4. Adjust the Delay from Sumo Gui to visualize the simulation properly set bar to 300.
+4. Adjust the Delay from Sumo Gui to visualize the simulation properly set delay slider to 300.
 5. Click the Start.
 6. You should receive the data on to terminal.
